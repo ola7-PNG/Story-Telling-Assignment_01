@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Changes in Consumer Fashion Shopping Habits</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    
+    
+    .section-header h2 {
+      color: #333;
+      font-size: 1.8em;
+    }
+    .chart-container {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .text-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 40px;
+      line-height: 1.7;
+    }
+    .text-content ul {
+      list-style: disc;
+      margin-left: 20px;
+    }
+    .chart {
+      max-width: 50%;
+      margin: 0 auto;
+    }
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .chart {
+        max-width: 90%;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      .section-header h2 {
+        font-size: 1.4em;
+      }
+      .text-content {
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Changes in Consumer Fashion Shopping Habits</h1>
+
+    </div>
+    <h2>Introduction</h2>
+    <div class="text-content">
+      <p>The fashion industry has undergone a seismic shift in the last decade, as consumer shopping habits have evolved rapidly. Traditionally, shopping for fashion was an in-person activity, with consumers spending hours in malls and boutiques, trying on clothes and making purchasing decisions in-store. However, with the rise of e-commerce, technological innovations, and changing consumer preferences, the way we shop has dramatically transformed. This story aims to highlight these shifts, focusing on the significant rise of online shopping, changes in the platforms that consumers prefer, and the different shopping behaviors observed across age groups, regions, and fashion store types.</p>
+    </div>
+
+    <!-- Visualization 1: E-Commerce vs In-Store Shopping Growth -->
+   
+      <h2>E-Commerce vs In-Store Shopping Growth (2010-2023)</h2>
+    </div>
+    <div class="chart-container">
+      <canvas id="shoppingGrowthChart" class="chart"></canvas>
+    </div>
+    <div class="text-content">
+      <p>The chart below illustrates the shift in consumer shopping habits from 2010 to 2023, comparing e-commerce to in-store shopping. In 2010, e-commerce only accounted for 15% of the total fashion market, while physical stores dominated with an 85% share. Fast forward to 2023, and this figure has completely flipped: e-commerce now captures approximately 65% of the market, while in-store shopping has dwindled to just 35% of fashion purchases.</p>
+      <p>Several key factors have contributed to this dramatic shift:</p>
+      <ul>
+        <li><strong>Technological Advancements:</strong> With the proliferation of smartphones, high-speed internet, and improved mobile apps, consumers now have a seamless and convenient shopping experience at their fingertips.</li>
+        <li><strong>COVID-19 Pandemic:</strong> The pandemic accelerated the shift to online shopping, as lockdowns and social distancing measures forced people to turn to digital platforms to satisfy their shopping needs. Even post-pandemic, this trend has largely persisted as people continue to enjoy the convenience of online shopping.</li>
+        <li><strong>Better Online Experiences:</strong> With advances in artificial intelligence, virtual try-ons, and augmented reality (AR), e-commerce has become more interactive, enhancing the consumer experience and making it easier to make informed purchase decisions.</li>
+      </ul>
+      <p>Despite the decline in in-store shopping, physical stores still hold a significant portion of the market, especially for luxury fashion. Many shoppers continue to value the tactile experience of trying on clothes and enjoying the ambiance of a boutique or department store.</p>
+    </div>
+
+    <!-- Visualization 2: Popular Shopping Platforms -->
+      <h2>Popular Shopping Platforms in 2023</h2>
+    </div>
+    <div class="chart-container">
+      <canvas id="platformChart" class="chart"></canvas>
+    </div>
+    <div class="text-content">
+      <p>
+      The second chart presents the most popular shopping platforms in 2023. The data reveals that Amazon continues to lead the pack with 30% of the fashion market share. This dominance is due to Amazon’s ability to offer an immense variety of products across all price ranges, paired with convenient delivery services. Amazon’s huge catalog, which includes both high-street and luxury fashion brands, has solidified its position as the number-one shopping destination for fashion items.</p>
+      <p>Following Amazon, other platforms like <strong>Zara</strong> and <strong>H&M</strong> capture around 18% and 15% of the market, respectively. These brands have successfully combined online shopping with their physical store presence, giving consumers the option to shop online and pick up items in-store. Moreover, these retailers have mastered the art of fast fashion—offering trendy, affordable styles that appeal to a broad range of customers.</p>
+    </div>
+
+    <!-- Visualization 3: Consumer Preference by Fashion Store Type -->
+      <h2>Consumer Preference by Fashion Store Type (2023)</h2>
+    </div>
+    <div class="chart-container">
+      <canvas id="preferenceChart" class="chart"></canvas>
+    </div>
+    <div class="text-content">
+      <p><strong>Key Insights</strong><br>
+       Fast fashion stores have emerged as the dominant category, with 45% of consumers preferring brands such as <strong>Shein</strong>, <strong>Zara</strong>, and <strong>H&M</strong>. These retailers offer stylish, on-trend products at affordable prices, attracting shoppers from a broad demographic, especially younger generations like Millennials and Gen Z.</p>
+    </div>
+
+    <!-- Conclusion -->
+      <h2>Conclusion</h2>
+    </div>
+    <div class="text-content">
+      <p>The landscape of fashion shopping has undoubtedly evolved. E-commerce has become the dominant force in the industry, driven by convenience, technological innovations, and the COVID-19 pandemic's impact on consumer behavior. While physical stores still maintain relevance, especially for luxury fashion and in-person shopping experiences, online shopping is likely to continue its upward trajectory in the coming years.</p>
+      <p>The platforms driving this change are diverse, with Amazon continuing to lead the pack, while other players like Zara, ASOS, and Shein cater to different segments of the market. Social media has played a significant role in amplifying the reach of online fashion, influencing trends, and pushing consumers toward digital shopping experiences.</p>
+    </div>
+
+  </div>
+
+  <script>
+    // E-Commerce vs In-Store Shopping Growth
+    const ctx1 = document.getElementById('shoppingGrowthChart').getContext('2d');
+
+    var canvas = document.getElementById('shoppingGrowthChart');
+    canvas.width = 900; 
+    canvas.height = 675;
+
+    new Chart(ctx1, {
+      type: 'line',
+      data: {
+        labels: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023'],
+        datasets: [{
+          label: 'E-Commerce Shopping',
+          data: [15, 18, 22, 25, 28, 32, 37, 43, 50, 55, 60, 63, 64, 65], // example data
+          borderColor: 'rgba(54, 162, 235, 1)',
+          fill: false,
+        }, {
+          label: 'In-Store Shopping',
+          data: [85, 82, 78, 75, 72, 68, 63, 57, 50, 45, 40, 37, 36, 35], // example data
+          borderColor: 'rgba(255, 99, 132, 1)',
+          fill: false,
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          title: {
+            display: true,
+            text: 'E-Commerce vs In-Store Shopping Growth (2010-2023)'
+          },
+          legend: {
+            position: 'top',
+          },
+        },
+        scales: {
+          x: {
+            title: {
+              display: true,
+              text: 'Year'
+            }
+          },
+          y: {
+            title: {
+              display: true,
+              text: 'Percentage of Market Share'
+            }
+          }
+        }
+      }
+    });
+
+    // Popular Shopping Platforms in 2023
+    const ctx2 = document.getElementById('platformChart').getContext('2d');
+
+    const ctx = document.getElementById('platformChart').getContext('2d');
+
+var canvas = document.getElementById('platformChart');
+canvas.width = 900; 
+canvas.height = 675;
+
+    new Chart(ctx2, {
+      type: 'bar',
+      data: {
+        labels: ['Amazon', 'Zara', 'H&M', 'ASOS', 'Nordstrom'],
+        datasets: [{
+          label: 'Shopping Platforms',
+          data: [30, 18, 15, 12, 10], // example data
+          backgroundColor: [
+            'rgba(255, 99, 132, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(255, 206, 86, 0.2)',
+            'rgba(75, 192, 192, 0.2)',
+            'rgba(153, 102, 255, 0.2)'
+          ],
+          borderColor: [
+            'rgba(255, 99, 132, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(75, 192, 192, 1)',
+            'rgba(153, 102, 255, 1)'
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          title: {
+            display: true,
+            text: 'Popular Shopping Platforms (2023)'
+          },
+        },
+        scales: {
+          x: {
+            title: {
+              display: true,
+              text: 'Shopping Platforms'
+            }
+          },
+          y: {
+            title: {
+              display: true,
+              text: 'Market Share (%)'
+            }
+          }
+        }
+      }
+    });
+   
+    // Consumer Preference by Fashion Store Type (2023)
+    const ctx3 = document.getElementById('preferenceChart').getContext('2d');
+
+var canvas = document.getElementById('preferenceChart');
+canvas.width = 900; 
+canvas.height = 675;
+    
+    new Chart(ctx3, {
+      type: 'pie',
+      data: {
+        labels: ['Fast Fashion', 'Mid-Range', 'Luxury'],
+        datasets: [{
+          label: 'Consumer Preference',
+          data: [45, 40, 15], // example data
+          backgroundColor: [
+            'rgba(255, 99, 132, 0.2)',
+            'rgba(54, 162, 235, 0.2)',
+            'rgba(75, 192, 192, 0.2)'
+          ],
+          borderColor: [
+            'rgba(255, 99, 132, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(75, 192, 192, 1)'
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          title: {
+            display: true,
+            text: 'Consumer Preference by Fashion Store Type (2023)'
+          },
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
